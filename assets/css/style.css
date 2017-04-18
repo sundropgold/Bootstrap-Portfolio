@@ -1,0 +1,107 @@
+/* ********** GENERAL ********** */
+* {
+	margin:0 auto;
+	box-sizing: border-box;
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+body {
+	background-image: url("../images/symphony.png");
+	background-repeat:repeat;
+}
+
+/* ********* HEADER / NAV ********** */
+
+nav.navbar-nav {
+	width:100%;
+	margin:0;
+}
+
+div#nav {
+	position:absolute;
+	top:24%;
+	right:5%;
+	z-index: 5;
+}
+
+h1 {
+	position:relative;
+	left:14%;
+	font-size: 55px;
+	z-index: 2;
+
+}
+
+li {
+	border-style: solid;
+	border-width: 0px 1.5px 0px 0px;
+	border-color: #bf5b94;
+	float:left;
+	text-align:center;
+
+	padding:0px 18px 0px 12px;
+}
+
+li:last-child {
+	border-width: 0px;
+}
+
+/* ********** FOOTER ********** */
+
+/* ********** TEXT ********** */
+h3#connect {
+	font-weight:bold;
+	border-style:solid;
+	border-color: #bf5b94;
+	border-width: 0px 0px 2px 0px;
+	padding: 2% 0px 2% 0px;
+	width:79%;
+}
+
+/* ********** IMAGES ********** */
+img#profilepic {
+	width:30%;
+	float:left;
+	padding:32px 25px 25px 25px;
+}
+
+img.social {
+	width:27%;
+	padding:3% 1% 0px 1%;
+	margin:2%;
+}
+
+
+/* ********** DIV#MAIN ********** */
+div#main {
+
+	width:55%;
+	margin-top:3%;
+	margin-left:5%;
+	
+	border-style: solid;
+	border-color:#bf5b94;
+	border-width: 2px 2px 2px 2px;
+	padding:35px;
+	margin-bottom:144px;
+	background-color: #ffffff;
+}
+
+/* ********** DIV#SIDEBAR ********** */
+div#sidebar {
+
+	width:27%;
+	margin-top:3%;
+	margin-left:5%;
+	
+	border-style: solid;
+	border-color:#bf5b94;
+	border-width: 2px 2px 2px 2px;
+	padding:2%;
+	margin-bottom:144px;
+	background-color: #ffffff;
+}
+/* ********** PORTFOLIO ********** */
+
+/* ********** FORMS ********** */
