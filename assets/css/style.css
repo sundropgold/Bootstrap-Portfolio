@@ -310,7 +310,7 @@ button#submit {
 	}
 }
 
-@media screen and (min-width: 769px) and (max-width: 991px) {
+@media screen and (min-width: 769px) and (max-width: 979px) {
 	
 	/* --- HEADER/NAV --- */
 
@@ -351,12 +351,12 @@ button#submit {
 
 }
 
-@media screen and (min-width: 992px) and (max-width: 1106px) {
+@media screen and (min-width: 980px) and (max-width: 1106px) {
 
 	/* --- HEADER/NAV --- */
 
 	h1 {
-		left:32%;
+		left:12%;
 	}
 
 	div#nav {
