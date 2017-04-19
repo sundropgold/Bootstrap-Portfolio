@@ -27,6 +27,8 @@ div#nav {
 }
 
 h1 {
+	font-weight: bold;
+	letter-spacing: 1.5px;
 	position:relative;
 	left:14%;
 	font-size: 55px;
@@ -54,7 +56,8 @@ div#footer {
 	right:0;
 	left:0;
 	width:100%;
-	padding:2%;
+	height:90px;
+	padding:3% 2%;
 
 	color:#ffffff;
 	background-color: #525253;
@@ -66,6 +69,15 @@ div#footer {
 }
 
 /* ********** TEXT ********** */
+
+h2 {
+	font-size:40px;
+}
+
+h3 {
+	font-size:23px;
+}
+
 h2#about {
 	font-weight: bold;
 	border-style:solid;
@@ -81,6 +93,19 @@ h3#connect {
 	border-width: 0px 0px 2px 0px;
 	padding: 2% 0px 2% 0px;
 	width:79%;
+}
+
+h3#portname {
+	color:#ffffff;
+	background-color: #bf5b94;
+	text-align: center;
+	font-size: 16px;
+
+	padding:23px 0px 23px 0px;
+	width:100%;
+
+	display:inline-block;
+	float:left;
 }
 
 /* ********** IMAGES ********** */
@@ -126,11 +151,14 @@ div#sidebar {
 	margin-bottom:144px;
 	background-color: #ffffff;
 }
-/* ********** PORTFOLIO ********** */
 
 /* ********** FORMS ********** */
+button#submit {
+	height:50px;
+	width:120px;
+}
 
-/* ********** MOBILE RESPONSIVE DESIGN *********** */
+/* ********** RESPONSIVE DESIGN *********** */
 @media screen and (max-width: 640px) {
 
 	/* --- HEADER/NAV -- */
@@ -176,8 +204,8 @@ div#sidebar {
 	div#sidebar {
 
 		width:93%;
-		margin-left:3%;
-		margin-right:3%;
+		margin-left:6%;
+		margin-right:1%;
 	}
 }
 
@@ -268,8 +296,8 @@ div#sidebar {
 		float:left;
 
 		width:93%;
-		margin-left:3%;
-		margin-right:3%;
+		margin-left:6%;
+		margin-right:1%;
 	}
 
 }
