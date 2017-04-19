@@ -75,11 +75,24 @@ h2 {
 }
 
 h3 {
-	font-size:23px;
+	font-size:25px;
 }
 
 h2#about {
-	font-weight: bold;
+	border-style:solid;
+	border-color: #bf5b94;
+	border-width: 0px 0px 2px 0px;
+	padding: 2% 0px 2% 0px;
+}
+
+h2#portfolio {
+	border-style:solid;
+	border-color: #bf5b94;
+	border-width: 0px 0px 2px 0px;
+	padding: 2% 0px 2% 0px;
+}
+
+h2#contact {
 	border-style:solid;
 	border-color: #bf5b94;
 	border-width: 0px 0px 2px 0px;
@@ -87,7 +100,6 @@ h2#about {
 }
 
 h3#connect {
-	font-weight:bold;
 	border-style:solid;
 	border-color: #bf5b94;
 	border-width: 0px 0px 2px 0px;
@@ -305,7 +317,7 @@ button#submit {
 	div#sidebar {
 
 		width:93%;
-		margin-left:4%;
+		margin-left:6%;
 		margin-right:3%;
 	}
 }
