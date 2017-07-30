@@ -1,3 +1,13 @@
-# Bootstrap-Portfolio
+# Portfolio Template
+## Bootstrap-Portfolio
 
-A Bootstrap Portfolio using the same design as the Basic Portfolio and Responsive Portfolio, this time using the Bootstrap grid system and media queries to make the site responsive. Includes links to about, portfolio code (placeholder cats!), contact links, and a contact form.
+### Summary
+A Bootstrap portfolio template, this time using the Bootstrap grid system and media queries to make the site responsive. Includes links to about, portfolio code (placeholder cats!), contact links, and a contact form.
+
+### Features
+* Bootstrap
+* Responsive Grid System
+* Bootswatch Theme
+
+### Demo
+https://sundropgold.github.io/Bootstrap-Portfolio/
